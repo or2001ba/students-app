@@ -23,21 +23,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        tools:text="Liam Johnson"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/studentId"
         app:layout_constraintStart_toEndOf="@+id/studentAvatar"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Liam Johnson" />
 
     <TextView
         android:id="@+id/studentId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="123123123"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/studentName"
-        app:layout_constraintTop_toBottomOf="@+id/studentName" />
+        app:layout_constraintTop_toBottomOf="@+id/studentName"
+        tools:text="123123123" />
 
     <CheckBox
         android:id="@+id/studentCheck"

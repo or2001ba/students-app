@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.or2001ba.studentsapp.R
 import com.or2001ba.studentsapp.models.Model
 
-class StudentAdapter(private val onItemClickListener: OnItemClicked) : RecyclerView.Adapter<StudentViewHolder>() {
+class StudentAdapter(private val onItemClickListener: OnItemClicked) :
+    RecyclerView.Adapter<StudentViewHolder>() {
     fun interface OnItemClicked {
         fun onItemClicked(studentId: String)
     }

@@ -93,8 +93,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/id_label"
         app:layout_constraintTop_toTopOf="@+id/id_label"
-        tools:text="123123123"
-        tools:ignore="VisualLintTextFieldSize" />
+        tools:ignore="VisualLintTextFieldSize"
+        tools:text="123123123" />
 
     <EditText
         android:id="@+id/phone_input"
@@ -109,8 +109,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/phone_label"
         app:layout_constraintTop_toTopOf="@+id/phone_label"
-        tools:text="052-1234567"
-        tools:ignore="VisualLintTextFieldSize" />
+        tools:ignore="VisualLintTextFieldSize"
+        tools:text="052-1234567" />
 
     <EditText
         android:id="@+id/address_input"
@@ -125,8 +125,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/address_label"
         app:layout_constraintTop_toTopOf="@+id/address_label"
-        tools:text="123 Main St, Springfield"
-        tools:ignore="VisualLintTextFieldSize" />
+        tools:ignore="VisualLintTextFieldSize"
+        tools:text="123 Main St, Springfield" />
 
     <CheckBox
         android:id="@+id/check_input"
