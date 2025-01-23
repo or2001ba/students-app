@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Students App</string>
+    <string name="add_student_button_text">+</string>
+    <string name="save_student_button_text">Save</string>
+    <string name="edit_student_button_text">Edit</string>
+    <string name="delete_student_button_text">Delete</string>
+    <string name="name_label">Name</string>
+    <string name="id_label">ID</string>
+    <string name="phone_label">Phone</string>
+    <string name="address_label">Address</string>
+    <string name="name_detail_label">Name:</string>
+    <string name="id_detail_label">ID:</string>
+    <string name="phone_detail_label">Phone:</string>
+    <string name="address_detail_label">Address:</string>
+    <string name="checked_label">Checked</string>
+    <string name="name_hint">How should we call you?</string>
+    <string name="id_hint">What is your ID?</string>
+    <string name="address_hint">Where do you live?</string>
+    <string name="phone_hint">What\'s your phone number?</string>
+</resources>
